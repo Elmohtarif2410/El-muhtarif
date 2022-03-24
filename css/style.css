@@ -1,0 +1,334 @@
+body{}
+.container{width:1170;margin:auto}
+
+/*start header*/
+
+        /*slider*/
+
+.header .slider{
+    height:600px;
+    background-image:url("../image/ahmed.jpg");
+    background-position:30% 30%;
+    background-size:cover
+}
+
+.header .slider .container .info{text-align:center;padding:250px}
+
+.header .slider .container h1{
+    margin:0px auto 30px;
+    padding:5px;
+    font-weight:bold;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+    color:#fff;
+    width:93%;
+    text-transform:uppercase;
+    font-size:40px
+}
+
+
+.header .slider .container button{
+    background:none;
+    padding:7px 25px;
+    color:#fff;
+    border:2px solid #fff;
+    text-transform:capitalize;
+    font-size:20px
+}
+ 
+
+            /*navbar*/
+
+.header .navbar {background:#2f4f4f;overflow:hidden;color:#fff}
+
+.header .navbar h3{letter-spacing:2px;color:#fff}
+
+.header .navbar h3 span:first-child{
+    margin-right:3px;
+    background:#777;
+    color:#fff;
+    padding:7px 3px
+}
+.header .navbar h3 span{color:forestgreen}
+
+.header .navbar ul {
+    list-style:none;
+    float:right;
+    overflow:hidden;
+    margin-top:20px   
+}
+
+.header .navbar ul li a{
+    text-decoration:none;
+    color:#fff;
+    text-transform:uppercase;
+    padding:10px 15px;
+    font-weight:900
+}
+
+.header .navbar ul li a:hover{color:forestgreen}
+
+/*end header*/
+
+
+/*start values & gols & hobbies*/
+
+.v-g-h{margin:50px 0px;overflow:hidden}
+
+.v-g-h .container div {width:33.333%}
+
+.v-g-h .container div h2{margin:30px 0px;color:#555}
+
+.v-g-h .container div p{padding-right:40px;}
+
+
+/*end values & gols & hobbies*/
+
+/*start ABOUT ME*/
+
+.about-me{background:#f2f2f2;overflow:hidden}
+
+.about-me .container .image{width:42%;}
+
+.about-me .container .image img{width:100%}
+
+.about-me .container > .text {width:50%;padding:60px 0px 30px 80px } 
+
+.about-me .container .text .hope-learn {width:50%;}
+
+.about-me .container .hope-learn .icon{width:10%}
+
+.about-me .container .hope-learn .icon img{width:100%;margin:50px 0px;border-radius:50% 30%}
+
+.about-me .container .hope-learn .text{width:75%;margin-left:25px}
+/*end ABOUT ME*/
+
+/*start ME SKILS*/
+
+.my-skils .container .skils,
+.my-skils .container .progres{width:50%;}
+
+.my-skils .container .skils{overflow:hidden;padding:70px 0px}
+
+.my-skils .container .skils h2{margin-left:10%}
+
+.my-skils .container .skils p{margin:0px 20px 40px 10%}
+
+.my-skils .container .skils button{
+    margin-left:10%;
+    background:none;
+    color:#0d0;
+    border:3px solid #0d0;
+    padding:10px 25px;
+    font-weight:bold
+}
+
+.my-skils .container .progres{padding:50px 0px;overflow:hidden}
+
+.my-skils .container .progres h3{margin-left:10%}
+
+.my-skils .container .progres div{width:100%;height:30px;background:#eee;margin:0px 10%;overflow:hidden}
+
+.my-skils .container .progres div span {
+    width:100%;
+    height:100%;
+    background:#0d0;
+    display:block;
+    text-align:right;
+    color:#fff;
+    line-height:1.7;
+    text-transform:capitalize
+}
+
+/*end ME SKILS*/
+
+/*start resume */
+
+.resume{text-align:center;background:#f2f2f2;padding:50px}
+
+.resume .container h2{margin-bottom:20px;color:#555}
+
+.resume .container p{text-align:center}
+
+.resume .container button{
+    margin-top:20px;
+    background:none;
+    color:#0d0;
+    border:3px solid #0d0;
+    padding:10px 25px;
+    font-weight:bold;
+    text-transform:capitalize
+}
+
+
+/*end resume */
+
+/*start tstimonils */
+
+.tstimonils .container > hr{background-color:#eee;height:3px;border:0;margin:50px 0px 0px}
+
+.tstimonils .container .education{width:50%;padding-top:3%}
+
+.tstimonils .container .education h2{margin-left:10%}
+
+.tstimonils .container .education p{margin-left:10%}
+
+.tstimonils .container .exp{width:45%;margin:6% 0px 0px 5%}
+
+.tstimonils .container .exp div h3{margin-top:30px}
+
+.tstimonils .container .exp div span{color:#fff;background:#0d0;padding:3px 10px;display:inline-block}
+
+.tstimonils .container .exp hr{background-color:#eee;height:2px;border:0;margin:30px 0px}
+
+.tstimonils .container .exp:last-of-type div:last-of-type p:last-of-type{margin-bottom:70px}
+
+
+/*end tstimonils */
+
+
+/*start john stone */
+
+.john-stone{text-align:center;background:#f2f2f2;padding:70px 50px}
+
+.john-stone q{
+    color:#999;
+    line-height:1.7;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:capitalize;
+    font-style:italic
+}
+
+.john-stone h2{margin:40px}
+
+.john-stone ul{list-style:none;text-align:center;padding:0px}
+
+.john-stone ul li{
+    width:12px;
+    height:12px;
+    border:2px solid #0d0;
+    display:inline-block;
+    border-radius:50%;
+    margin-left:7px
+}
+
+.john-stone ul li:hover,
+.john-stone ul li.activ{background:#0d0;cursor:pointer}
+
+/*end john stone */
+
+/*start portfolio */
+
+.portfolio{text-align:center;overflow:hidden;padding:100px 50px 50px}
+
+.portfolio .container h2{margin-bottom:30px}
+
+.portfolio .container p{margin-bottom:100px;text-align:center}
+
+.portfolio .container .work-image{overflow:hidden}
+
+/*لن ياثر الفلوت علسي الصور لانها ستاتي جنب بعض سواء فلوت لفت او ريت عند تغيير اللغة */
+
+.portfolio .container .work-image > div{
+    width:30%;
+    float:left;
+    overflow:hidden;
+    margin:1%;
+    padding:4px;
+    border:3px solid #eee;
+    background:#fff
+}
+
+.portfolio .container .work-image > div img{width:100%;height:300px}
+
+/*end portfolio */
+
+/*start contact me*/
+
+.contact-me{background:#252f31;overflow:hidden;color:#fff;padding:50px}
+
+.contact-me .container .text-cont{width:50%;}
+
+.contact-me .container .text-cont h2{color:#fff}
+
+.contact-me .container .text-cont p strong {color:#eee;margin-right:20px}
+
+.contact-me .container .form{width:45%;margin-left:5%;padding-top:3%}
+
+.contact-me .container .form label{
+    display:block;
+    text-transform:capitalize;
+    margin:12px 0px;
+    font-weight:bold;
+    color:#eee
+}
+
+.contact-me .container .form input[type="text"]{
+    width:80%;
+    padding:7px;
+    background-color:darkslategray;
+    border:0;
+    color:#fff;
+    margin-bottom:20px
+
+}
+.contact-me .container .form textarea{
+    width:80%;
+    padding:7px;
+    background-color:darkslategray;
+    border:0;
+    color:#fff;
+    height:250px;
+    margin-bottom:30px
+
+}
+.contact-me .container .form input[type="submit"]{
+    display:block;
+    padding:15px 25px;
+    color:#eee;
+    background:#191e22;
+    border:0;
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:1,7
+}
+
+
+/*end contact me*/
+
+/*start footer*/
+.footer{background:#191e22;color:#fff;overflow:hidden;}
+
+.footer h3{margin-left:10%;color:#fff}
+
+.footer ul{
+    float:right;
+    list-style:none;
+    overflow:hidden;
+    margin-right:10%
+}
+
+.footer ul li{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-left:5px;
+    cursor:pointer
+}
+.footer ul li:hover{width:40px;height:40px}
+
+.footer ul li img{width:100%;border-radius:50%}
+/*end footer*/
+
+
+/* fremwork */
+
+h2, h3{text-transform:uppercase;color:#777}
+
+p{line-height:1.7;color:#999;text-align:justify}
+
+.left {float:left}
+
+.clear{clear:both}
